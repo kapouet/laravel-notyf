@@ -1,0 +1,4 @@
+/dist/hot
+/node_modules/
+/vendor/
+yarn-error.log

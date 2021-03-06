@@ -1,0 +1,41 @@
+{
+    "name": "kapouet/laravel-notyf",
+    "description": "Add Notyf support in your Laravel app",
+    "keywords": [
+        "kapouet",
+        "notyf",
+        "toast",
+        "notification"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Quentin CATHERINE",
+            "email": "balsakup+kapouet@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/contracts": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kapouet\\Notyf\\": "src"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kapouet\\Notyf\\NotyfServiceProvider"
+            ],
+            "aliases": {
+                "Notyf": "Kapouet\\Notyf\\Facades\\Notyf"
+            }
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
