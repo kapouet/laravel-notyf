@@ -31,7 +31,7 @@ The config file is structured like Notyf, but in PHP, see https://github.com/car
 
 <!-- For JS -->
 <!-- Import this script after Livewire if you use it -->
-<xnotyf::scripts/>
+<x-notyf::scripts/>
 ```
 
 ### Send toast with PHP
